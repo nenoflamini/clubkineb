@@ -245,3 +245,62 @@
     height: 20vw;
   }
   
+  @media screen and (max-width: 780px) {
+    .containergrid {
+      grid-template-columns: repeat(3, 1fr);
+  }
+
+  .videouno {
+      grid-column: span 3;
+      grid-row: span 1;
+  }
+
+  .videodos {
+      grid-column: span 3;
+      grid-row: span 1;
+  }
+
+  .videotres {
+      grid-column: span 3;
+      grid-row: span 1;
+  }
+
+  .containeruno {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.imagensalon {
+    grid-column: span 3;
+    grid-row: span 1.5;
+}
+
+.imagensalon2 {
+    grid-column: span 3;
+    grid-row: span 1.7;
+}
+
+.imagensalon3 {
+    grid-column: span 3;
+    grid-row: span 1.5;
+}
+
+.entrenamiento2 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.entrenamiento3 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.entrenamiento4 {
+    grid-column: span 3;
+    grid-row: span 1.5;
+}
+
+.entrenamiento7 {
+    grid-column: span 3;
+}
+
+  }
