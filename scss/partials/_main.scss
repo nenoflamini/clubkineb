@@ -1,0 +1,235 @@
+@import "./variables";
+.social {
+    position: fixed;
+    right: 0;
+    top: 200px;
+    z-index: 2000;
+
+    ul {
+        list-style: none;
+
+        li {
+            a {
+                display: inline-block;
+                color: $color-secundario;
+                background: $color-terciario;
+                padding: 10px 15px;
+                text-decoration: none;
+                -webkit-transition: all 500ms ease;
+                transition: all 500ms ease;
+
+                a:hover {
+                    padding: 10px 30px;
+                }
+            }
+
+            .icon-facebook2 {
+                background: #3b5998;
+            }
+
+            .icon-instagram {
+                background: palevioletred;
+            }
+
+            .icon-whatsapp {
+                background: green;
+
+            }
+
+
+        }
+    }
+}
+
+.containergrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 300px;
+    grid-gap: 10px;
+    margin-top: 5px;
+    background-color: $color-terciario;
+
+    video {
+        height: 100%;
+        width: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+}
+
+.videouno {
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+.videodos {
+    grid-column: span 2;
+    grid-row: span 3;
+}
+
+.videotres {
+    grid-column: span 3;
+    grid-row: span 1;
+}
+
+.boxtext {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: $color-secundario;
+    padding: 0px;
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+    line-height: 200%;
+
+    h2 {
+        color: $color-principal;
+        font-size: 3vw;
+        margin-top: 0px;
+        margin-left: 38vw;
+        margin-right: 10px;
+        text-align: center;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+    }
+}
+
+
+.boxtextp {
+    color: $color-principal;
+    text-align: center;
+    font-size: 2vw;
+    margin-bottom: 5vw;
+    line-height: 150%;
+}
+
+.boxtext2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: $color-secundario;
+    padding: 0px;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    line-height: 200%;
+
+    p {
+        color: $color-principal;
+        text-align: center;
+        font-size: 5vw;
+        margin: 40px;
+        line-height: 100%;
+    }
+}
+
+
+.containeruno {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 300px;
+    grid-gap: 10px;
+    margin-left: 0%;
+    margin-right: 0%;
+    max-width: 100%;
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .entrenamiento1 {
+        grid-column: span 1;
+        grid-row: span 2;
+    }
+
+    .entrenamiento2 {
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+
+    .entrenamiento3 {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    .entrenamiento4 {
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+
+    .entrenamiento5 {
+        grid-column: span 2;
+    }
+
+    .entrenamiento7 {
+        grid-column: span 2;
+    }
+}
+
+
+.rounded {
+    width: 13vw;
+
+}
+
+.staffh2 {
+    color: $color-principal;
+    font-size: 4vw;
+    text-align: center;
+    margin: 5vw;
+}
+
+.card {
+    margin-left: 3vw;
+}
+
+.card-img-top {
+    object-fit: cover;
+    width: 23.3vw;
+    height: 25vw;
+}
+
+.separador {
+    background-color: $color-secundario;
+    margin-top: 10vw;
+}
+
+.Act {
+    object-fit: cover;
+    width: 35vw;
+    height: 31vw;
+}
+
+.tienda {
+    object-fit: cover;
+    width: 23vw;
+    height: 16vw;
+}
+
+.card-body iframe {
+    width: 35vw;
+    height: 20vw;
+
+}
+
+form {
+    background-color: $color-principal;
+    border-radius: 3px;
+    padding: 20px;
+    font-size: 17px;
+    color: $color-secundario;
+}
+
+textarea {
+    outline: none;
+    border: 30px;
+    width: 425px;
+    height: 100px;
+}
+
+.card-body img {
+    width: 28vw;
+    height: 35vw;
+}
