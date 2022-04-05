@@ -256,9 +256,12 @@ form {
 textarea {
     outline: none;
     border: 30px;
-    margin: 12px;
     width: 560px;
     height: 100px;
+}
+.card-body img {
+  width: 28vw;
+  height: 35vw;
 }
   @media screen and (max-width: 780px) {
     .containergrid {
@@ -317,6 +320,26 @@ textarea {
 
 .entrenamiento7 {
     grid-column: span 3;
+}
+.card-img-top {
+  width: 76.3vw;
+  height: 55vw;
+}
+.Act {
+  width: 76.3vw;
+  height: 55vw;
+}
+.tienda {
+  width: 76.3vw;
+  height: 55vw;
+}
+.card-body img {
+  width: 76.3vw;
+  height: 100vw;
+}
+textarea {
+  width: 380px;
+  height: 100px;
 }
 
   }
