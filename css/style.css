@@ -232,7 +232,7 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
   width: 38.5vw;
-  height: 26vw;
+  height: 27rem;
 }
 
 .separador {
@@ -352,6 +352,9 @@ textarea {
   }
   .card {
     width: 17rem;
+  }
+  .card-img-top {
+    height: 17rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
