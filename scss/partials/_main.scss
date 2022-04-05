@@ -43,7 +43,7 @@
 
 .containergrid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    -ms-grid-columns: (1fr) 5;
     grid-auto-rows: 300px;
     grid-gap: 10px;
     margin-top: 5px;
@@ -126,7 +126,7 @@
 
 .containeruno {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    -ms-grid-columns: (1fr) 5;
     grid-auto-rows: 300px;
     grid-gap: 10px;
     margin-left: 0%;

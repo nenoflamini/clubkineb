@@ -88,7 +88,7 @@ body {
 .containergrid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr) 5;
+  -ms-grid-columns: 1fr 5;
   grid-auto-rows: 300px;
   grid-gap: 10px;
   margin-top: 5px;
@@ -169,7 +169,7 @@ body {
 .containeruno {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr) 5;
+  -ms-grid-columns: 1fr 5;
   grid-auto-rows: 300px;
   grid-gap: 10px;
   margin-left: 0%;
@@ -285,7 +285,7 @@ textarea {
 
 @media screen and (max-width: 780px) {
   .containergrid {
-    -ms-grid-columns: (1fr) 3 ;
+    -ms-grid-columns: 1fr 5;
   }
   .videouno {
     grid-column: span 3;
@@ -300,7 +300,7 @@ textarea {
     grid-row: span 1;
   }
   .containeruno {
-    -ms-grid-columns: (1fr) 3;
+    -ms-grid-columns: 1fr 5;
   }
   .imagensalon {
     grid-column: span 3;

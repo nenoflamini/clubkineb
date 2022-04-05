@@ -1,7 +1,7 @@
 @media screen and (max-width: 780px) {
     .containergrid {
-      grid-template-columns: repeat(3, 1fr);
-  }
+      -ms-grid-columns: (1fr) 5 ;
+      }
   
   .videouno {
       grid-column: span 3;
@@ -20,7 +20,7 @@
   
   
   .containeruno {
-    grid-template-columns: repeat(3, 1fr);
+    -ms-grid-columns: (1fr) 5;
   }
   
   .imagensalon {
@@ -76,5 +76,4 @@
   width: 380px;
   height: 100px;
   }
-  
-  }
+}  
