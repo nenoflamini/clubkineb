@@ -1,85 +1,3 @@
-@media screen and (max-width: 780px) {
-  .staffh2 {
-    font-size: 6vw;
-    margin-top: 10vw;
-  }
-  .containergrid {
-    -ms-grid-columns: 1fr 3;
-  }
-  .videouno {
-    grid-column: span 5;
-    grid-row: span 1;
-  }
-  .videodos {
-    grid-column: span 5;
-    grid-row: span 1;
-  }
-  .videotres {
-    grid-column: span 5;
-    grid-row: span 1;
-  }
-  .containeruno {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
-  }
-  .imagensalon {
-    grid-column: span 3;
-    grid-row: span 1.5;
-  }
-  .imagensalon2 {
-    grid-column: span 3;
-    grid-row: span 1.7;
-  }
-  .imagensalon3 {
-    grid-column: span 3;
-    grid-row: span 1.5;
-  }
-  .entrenamiento1 {
-    grid-column: span 1;
-    grid-row: span 1;
-  }
-  .entrenamiento2 {
-    grid-column: span 2;
-    grid-row: span 1;
-  }
-  .entrenamiento3 {
-    grid-column: span 1;
-    grid-row: span 1;
-  }
-  .entrenamiento4 {
-    grid-column: span 1;
-    grid-row: span 1;
-  }
-  .entrenamiento7 {
-    grid-column: span 3;
-  }
-  .card-img-top {
-    height: 55vw;
-    width: 17rem;
-  }
-  .Act {
-    height: 55vw;
-    width: 17rem;
-  }
-  .tienda {
-    height: 55vw;
-    width: 17rem;
-  }
-  .card-body img {
-    width: 76.3vw;
-    height: 100vw;
-  }
-  textarea {
-    width: 380px;
-    height: 100px;
-  }
-  .card {
-    width: 17rem;
-    margin-left: 14vw;
-    margin-top: 10vw;
-  }
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -361,7 +279,7 @@ form {
 textarea {
   outline: none;
   border: 30px;
-  width: 425px;
+  width: 30vw;
   height: 100px;
 }
 
@@ -373,5 +291,87 @@ textarea {
 .text-muted {
   color: #000056 !important;
   font-size: 17px;
+}
+
+@media screen and (max-width: 780px) {
+  .staffh2 {
+    font-size: 6vw;
+    margin-top: 10vw;
+  }
+  .containergrid {
+    -ms-grid-columns: 1fr 3;
+  }
+  .videouno {
+    grid-column: span 5;
+    grid-row: span 1;
+  }
+  .videodos {
+    grid-column: span 5;
+    grid-row: span 1;
+  }
+  .videotres {
+    grid-column: span 5;
+    grid-row: span 1;
+  }
+  .containeruno {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+  .imagensalon {
+    grid-column: span 3;
+    grid-row: span 1.5;
+  }
+  .imagensalon2 {
+    grid-column: span 3;
+    grid-row: span 1.7;
+  }
+  .imagensalon3 {
+    grid-column: span 3;
+    grid-row: span 1.5;
+  }
+  .entrenamiento1 {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  .entrenamiento2 {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+  .entrenamiento3 {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  .entrenamiento4 {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  .entrenamiento7 {
+    grid-column: span 3;
+  }
+  .card-img-top {
+    height: 55vw;
+    width: 17rem;
+  }
+  .Act {
+    height: 55vw;
+    width: 17rem;
+  }
+  .tienda {
+    height: 55vw;
+    width: 17rem;
+  }
+  .card-body img {
+    width: 57vw;
+    height: 73vw;
+  }
+  textarea {
+    width: 89vw;
+    height: 100px;
+  }
+  .card {
+    width: 17rem;
+    margin-left: 14vw;
+    margin-top: 10vw;
+  }
 }
 /*# sourceMappingURL=style.css.map */
