@@ -1,4 +1,5 @@
 @import "./variables";
+
 .social {
     position: fixed;
     right: 0;
@@ -43,7 +44,7 @@
 
 .containergrid {
     display: grid;
-    -ms-grid-columns: (1fr) 5;
+    grid-template-columns: repeat(5, 1fr);
     grid-auto-rows: 300px;
     grid-gap: 10px;
     margin-top: 5px;
@@ -52,11 +53,11 @@
     video {
         height: 100%;
         width: 100%;
-        -o-object-fit: cover;
         object-fit: cover;
     }
 
 }
+
 
 .videouno {
     grid-column: span 3;
@@ -126,94 +127,85 @@
 
 .containeruno {
     display: grid;
-    -ms-grid-columns: (1fr) 5;
+    grid-template-columns: repeat(5, 1fr);
     grid-auto-rows: 300px;
     grid-gap: 10px;
-    margin-left: 0%;
-    margin-right: 0%;
-    max-width: 100%;
-
     img {
         height: 100%;
         width: 100%;
         object-fit: cover;
     }
-
-    .entrenamiento1 {
-        grid-column: span 1;
-        grid-row: span 2;
+.entrenamiento1 {
+    grid-column: span 1;
+    grid-row: span 2;
     }
 
-    .entrenamiento2 {
-        grid-column: span 2;
-        grid-row: span 1;
+.entrenamiento2 {
+    grid-column: span 2;
+    grid-row: span 1;
     }
 
-    .entrenamiento3 {
-        grid-column: span 2;
-        grid-row: span 2;
+.entrenamiento3 {
+    grid-column: span 2;
+    grid-row: span 2;
     }
 
-    .entrenamiento4 {
-        grid-column: span 2;
-        grid-row: span 1;
+.entrenamiento4 {
+    grid-column: span 2;
+    grid-row: span 1;
     }
 
-    .entrenamiento5 {
-        grid-column: span 2;
+.entrenamiento5 {
+    grid-column: span 2;
     }
 
-    .entrenamiento7 {
-        grid-column: span 2;
+.entrenamiento7 {
+    grid-column: span 2;
     }
-}
-
 
 .rounded {
-    width: 13vw;
-
-}
+    width: 10vw;
+    }
 
 .staffh2 {
     color: $color-principal;
     font-size: 4vw;
     text-align: center;
     margin: 5vw;
-}
+    }
 
 .card {
     margin-left: 3vw;
     width: 27rem;
-}
+    }
 
 .card-img-top {
     object-fit: cover;
-    width:38.5vw;
+    width: 26.9rem;
     height: 27rem;
-}
+    }
 
 .separador {
     background-color: $color-secundario;
     margin-top: 10vw;
-}
+    }
 
 .Act {
     object-fit: cover;
-    width: 31.4vw;
-    height: 26vw;
-}
+    width: 26.9rem;
+    height: 27rem;
+    }
 
 .tienda {
     object-fit: cover;
     width: 23vw;
     height: 16vw;
-}
+    }
 
 .card-body iframe {
     width: 35vw;
     height: 20vw;
-
-}
+    }
 
 form {
     background-color: $color-principal;
@@ -221,16 +213,17 @@ form {
     padding: 20px;
     font-size: 17px;
     color: $color-secundario;
-}
+    }
 
 textarea {
     outline: none;
     border: 30px;
     width: 425px;
     height: 100px;
-}
+    }
 
 .card-body img {
     width: 28vw;
     height: 35vw;
+    }
 }
