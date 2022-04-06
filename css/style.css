@@ -222,6 +222,11 @@ body {
   justify-content: space-around;
 }
 
+h1 {
+  margin-top: 8vw;
+  text-align: center;
+}
+
 .boxtextp {
   color: #000056;
   text-align: center;
@@ -265,82 +270,87 @@ body {
      object-fit: cover;
 }
 
-.containeruno .entrenamiento1 {
+.sentrenamiento1 {
   grid-column: span 1;
   grid-row: span 2;
 }
 
-.containeruno .entrenamiento2 {
+.entrenamiento2 {
   grid-column: span 2;
   grid-row: span 1;
 }
 
-.containeruno .entrenamiento3 {
+.entrenamiento3 {
   grid-column: span 2;
   grid-row: span 2;
 }
 
-.containeruno .entrenamiento4 {
-  grid-column: span 2;
+.entrenamiento4 {
+  grid-column: span 3;
   grid-row: span 1;
 }
 
-.containeruno .entrenamiento5 {
+.entrenamiento5 {
   grid-column: span 2;
 }
 
-.containeruno .entrenamiento7 {
+.entrenamiento6 {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.entrenamiento7 {
   grid-column: span 2;
 }
 
-.containeruno .rounded {
+.rounded {
   width: 10vw;
 }
 
-.containeruno .staffh2 {
+.staffh2 {
   color: #000056;
   font-size: 4vw;
   text-align: center;
   margin: 5vw;
 }
 
-.containeruno .card {
+.card {
   margin-left: 3vw;
-  width: 27rem;
+  width: 23rem;
 }
 
-.containeruno .card-img-top {
+.card-img-top {
   -o-object-fit: cover;
      object-fit: cover;
-  width: 26.9rem;
-  height: 27rem;
+  width: 22.9rem;
+  height: 16rem;
 }
 
-.containeruno .separador {
+.separador {
   background-color: rgba(255, 255, 255, 0.904);
   margin-top: 10vw;
 }
 
-.containeruno .Act {
+.Act {
   -o-object-fit: cover;
      object-fit: cover;
-  width: 26.9rem;
-  height: 27rem;
+  width: 22.9rem;
+  height: 16rem;
 }
 
-.containeruno .tienda {
+.tienda {
   -o-object-fit: cover;
      object-fit: cover;
   width: 23vw;
   height: 16vw;
 }
 
-.containeruno .card-body iframe {
+.card-body iframe {
   width: 35vw;
   height: 20vw;
 }
 
-.containeruno form {
+form {
   background-color: #000056;
   border-radius: 3px;
   padding: 20px;
@@ -348,14 +358,14 @@ body {
   color: rgba(255, 255, 255, 0.904);
 }
 
-.containeruno textarea {
+textarea {
   outline: none;
   border: 30px;
   width: 425px;
   height: 100px;
 }
 
-.containeruno .card-body img {
+.card-body img {
   width: 28vw;
   height: 35vw;
 }

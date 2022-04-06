@@ -95,7 +95,10 @@
         justify-content: space-around;
     }
 }
-
+h1 {
+    margin-top: 8vw;
+    text-align: center;
+}
 
 .boxtextp {
     color: $color-principal;
@@ -135,7 +138,8 @@
         width: 100%;
         object-fit: cover;
     }
-.entrenamiento1 {
+}
+.sentrenamiento1 {
     grid-column: span 1;
     grid-row: span 2;
     }
@@ -151,14 +155,17 @@
     }
 
 .entrenamiento4 {
-    grid-column: span 2;
+    grid-column: span 3;
     grid-row: span 1;
     }
 
 .entrenamiento5 {
     grid-column: span 2;
     }
-
+.entrenamiento6 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
 .entrenamiento7 {
     grid-column: span 2;
     }
@@ -176,13 +183,13 @@
 
 .card {
     margin-left: 3vw;
-    width: 27rem;
+    width: 23rem;
     }
 
 .card-img-top {
     object-fit: cover;
-    width: 26.9rem;
-    height: 27rem;
+    width: 22.9rem;
+    height: 16rem;
     }
 
 .separador {
@@ -192,8 +199,8 @@
 
 .Act {
     object-fit: cover;
-    width: 26.9rem;
-    height: 27rem;
+    width: 22.9rem;
+    height: 16rem;
     }
 
 .tienda {
@@ -225,5 +232,4 @@ textarea {
 .card-body img {
     width: 28vw;
     height: 35vw;
-    }
 }
