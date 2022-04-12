@@ -1,0 +1,4 @@
+@mixin genius($colum, $row) {
+    grid-column: $colum;
+    grid-row: $row;
+}

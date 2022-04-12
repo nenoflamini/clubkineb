@@ -3,3 +3,8 @@ $color-principal: #000056;
 $color-secundario: rgba(255, 255, 255, 0.904);
 
 $color-terciario: black;
+
+@mixin genius($colum, $row) {
+    grid-column: $colum;
+    grid-row: $row;
+}

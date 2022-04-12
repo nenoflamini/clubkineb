@@ -1,4 +1,6 @@
 @import "./variables";
+@import "./mapas";
+
 * {
     margin: 0;
     padding: 0;
@@ -7,5 +9,5 @@
   }
   
   body {
-    background-color: $color-secundario;
+    background-color: map-get($display, background-color);
   }

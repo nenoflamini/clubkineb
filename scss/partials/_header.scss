@@ -1,4 +1,5 @@
 @import "./variables";
+@import "./mapas";
 
 .navbar {
     background-color: $color-terciario;
@@ -14,7 +15,7 @@
         h1 {
             font-size: 5vw;
             margin: 0;
-            color: $color-secundario;
+            color: map-get($display, background-color);
           }
   }
   
@@ -22,7 +23,7 @@
     background-color: $color-terciario;
     padding: 2.9vw;
     h5 {
-        color: $color-secundario;
+        color: map-get($display, background-color);
       }
   }
   
@@ -31,6 +32,6 @@
   }
   
   .btn-outline-success {
-    color: $color-secundario;
-    border-color: $color-secundario;
+    color: map-get($display, background-color);
+    border-color: map-get($display, background-color);
   }
