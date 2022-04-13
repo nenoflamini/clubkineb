@@ -219,7 +219,7 @@ h1 {
 
 .card {
   margin-left: 3vw;
-  width: 23rem;
+  width: 26rem;
 }
 
 .card-img-top {
@@ -249,7 +249,7 @@ h1 {
 }
 
 .card-body iframe {
-  width: 35vw;
+  width: 28vw;
   height: 20vw;
 }
 
@@ -343,8 +343,8 @@ textarea {
     grid-row: span 1;
   }
   .card-img-top {
-    height: 55vw;
-    width: 17rem;
+    height: 57vw;
+    width: 22.5rem;
   }
   .Act {
     height: 55vw;
@@ -363,9 +363,12 @@ textarea {
     height: 100px;
   }
   .card {
-    width: 17rem;
+    width: 22.5rem;
     margin-left: 14vw;
     margin-top: 10vw;
+  }
+  .card-body iframe {
+    width: 57vw;
   }
 }
 

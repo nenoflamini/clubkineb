@@ -64,8 +64,8 @@
   }
 
   .card-img-top {
-    height: 55vw;
-    width: 17rem;
+    height: 57vw;
+    width: 22.5rem;
   }
 
   .Act {
@@ -89,11 +89,13 @@
   }
 
   .card {
-    width: 17rem;
+    width: 22.5rem;
     margin-left: 14vw;
     margin-top: 10vw;
 
 
   }
-
+  .card-body iframe {
+    width: 57vw;
+  }
 }
